@@ -10,7 +10,7 @@ import RMAManagement from './RMAManagement';
 import ReportMgmt from './ReportMgmt';
 import SBNMgmt from './SBNMgmt';
 
-export default class NeweggMarketplaceAPI {
+export default NeweggMarketplaceAPI {
   constructor(sellerId, authorization, secretKey) {
     this.QueryWrapper = new QueryWrapper(sellerId, authorization, secretKey);
     this.SellerMgmt = new SellerMgmt(this.QueryWrapper);
