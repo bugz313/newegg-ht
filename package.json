@@ -17,9 +17,6 @@
     "test": "mocha tests/unauthorized.js",
     "build": "babel src -d out/src"
   },
-  "engines": {
-    "node": ">= 6.10.0"
-  },
   "author": {
     "name": "Caleb Blankemeyer",
     "email": "caleb@blankemeyer.us",
